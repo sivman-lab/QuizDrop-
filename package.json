@@ -1,0 +1,25 @@
+{
+  "name": "quizdrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.22.3",
+    "katex": "^0.16.9",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
